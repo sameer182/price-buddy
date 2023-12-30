@@ -1,0 +1,158 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: auto;
+      }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+#logo{
+    margin-left: 20px;
+    font-size: 25px;
+    
+}
+
+.nav{
+    margin-left:425px 
+}
+
+.main {
+    text-align: center;
+}
+/* Banner styling */
+.banner {
+    position: relative;
+    text-align: center;
+    color: #fff; /* Text color */
+    padding: 80px 20px; /* Adjust padding as needed */
+    border-radius: 10px;
+    background: url('/src/assets/img/banner.jpg') center/cover; /* Replace 'path-to-your-banner-image.jpg' with your actual image path */
+  }
+  
+  .banner h1 {
+    font-size: 3em; /* Adjust font size as needed */
+    margin-bottom: 60px; /* Adjust spacing as needed */
+    margin-right: auto;
+  }
+  
+  /* Home page Search bar*/
+  .search-bar {
+    width: 100%;
+    max-width: 1000px; /* Adjust the width as needed */
+    margin-right: 1000px; /* Center the search bar */
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em; /* Adjust font size as needed */
+    border: none;
+    border-radius: 25px;
+  }
+
+  /* Product search bar */
+  .search-bar1 {
+    width: 100%;
+    max-width: 100%; /* Adjust the width as needed */
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-color: black;
+     }
+  .search-bar1 input {
+        padding: 10px;
+        font-size: 1em;
+        border-style: solid;
+        border-color: black;
+     }
+
+section {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.product-box {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.product h2 {
+    margin: 10px 0;
+}
+
+.product p {
+    color: #666;
+}
+
+button{
+    cursor: pointer;
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 0.9rem;
+    margin-left: 100px;
+     
+  }
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+ }
+  
+footer p {
+    font-size: 1.2rem;
+}
