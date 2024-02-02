@@ -9,6 +9,7 @@ import ProductPage from './components/ProductPage.vue';
 import AboutPage from './components/AboutPage.vue';
 import ComparePage from './components/ComparePage.vue';
 
+// Define the routes for the application
   const routes = [
     { path: '/', component: HomePage },
     { path: '/product', component: ProductPage },
@@ -21,11 +22,13 @@ import ComparePage from './components/ComparePage.vue';
     },
   ];
 
+  // Create a router instance with specified routes and history mode
   const router = createRouter({
     history: createWebHistory(),
     routes,
   });
 
+//create main vue app
 const app = createApp(App); 
   app.use(router);
   app.mount('#app');
