@@ -10,48 +10,56 @@
         latest releases, meticulously curated to cater to every musical style and preference.
       </p>
 
-      <h3>What Sets Us Apart</h3>
-      <p>
-        What sets Price Buddy apart is our commitment to simplifying the guitar-buying journey.
-        We understand that choosing the right instrument involves considering various factors
-        such as brand, model, features, and, of course, price. Our user-friendly interface allows
-        users to navigate effortlessly through a vast array of guitars, making side-by-side
-        comparisons to ensure they find the instrument that perfectly suits their needs and budget.
-      </p>
-
-      <h3>Your Guitar Buying Companion</h3>
-      <p>
-        Whether you're a seasoned guitarist looking to upgrade or a beginner embarking on your
-        musical journey, Price Buddy is your go-to resource for reliable and unbiased information.
-        Our mission is to foster a community where musicians can share insights, reviews, and
-        experiences, creating a valuable hub for guitar enthusiasts worldwide.
-      </p>
-
       <h3>Join Us at Price Buddy</h3>
       <p>
         Join us at Price Buddy, where we harmonize technology and passion to guide you towards
         finding the guitar that resonates with your unique musical identity.
+        Music is great.
       </p>
+
+      <div>
+        <h2>Designed and developed</h2>
+        <p>by</p>
+        <p><strong>
+            Sameer Limbu
+          </strong>
+        </p>
+      </div>
+
+
     </section>
   </div>
 </template>
-
-
-<style>
-/* Add your custom styles here */
-.about-us {
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
-}
-
-.about-us h2, .about-us h3 {
-  margin-bottom: 10px;
-}
-</style>
 
 <script>
   export default {
     name: 'AboutPage' // Change the name to be multi-word
   };
 </script>
+
+<style>
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.about-us {
+  max-width: 450px;
+  margin: auto;
+  padding: 20px;
+}
+
+.about-us h2,
+.about-us h3 {
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+</style>
+

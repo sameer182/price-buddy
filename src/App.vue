@@ -1,20 +1,21 @@
 <template>
   <div id="app">
-    
-   <nav>
+ <!-- Navigation Bar -->
+    <nav>
       <div id="logo">
         <strong>Price Buddy</strong>
       </div>
       <div class="nav">
         <strong>
-        <router-link to="/">Home</router-link>
-        <router-link to="/product">Product</router-link>
-        <router-link to="/about">About</router-link>
+          <!-- Router links for navigation -->
+          <router-link to="/">Home</router-link>
+          <router-link to="/product">Product</router-link>
+          <router-link to="/about">About</router-link>
         </strong>
       </div>
-     
+
     </nav>
-    
+
     <router-view></router-view>
 
     <footer>
@@ -24,14 +25,10 @@
 </template>
 
 <script>
-import '../src/assets/css/home.css'; // Importing CSS file
+import '../src/assets/css/home.css';
 
 export default {
   name: 'App',
  
 };
 </script>
-
-<style>
-
-</style>
